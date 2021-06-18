@@ -1,0 +1,53 @@
+#header {
+    background-color: #E5E5E5;
+    margin-bottom: 100px;
+}
+#batman { 
+    margin-left: 850px;
+    margin-top: 30px;
+}
+#primer-titulo {
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: #C4C4C4;
+    text-align: center;
+    letter-spacing: 8px
+}
+main section ul, p {
+    margin-left: 400px;
+}
+.titulos-importantes {
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #C4C4C4;
+    width: 1041px;
+    height: 30px;
+    letter-spacing: 8px;
+    margin: 0 auto;
+    padding: 5px;
+}
+ul li span {
+    font-weight: bold;
+    font-style: italic;
+}
+.fechas {
+    font-weight: bold;
+}
+.margen {
+    margin-left: 80px
+}
+#footer {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #005677;
+    margin-top: 200px;
+    text-align: center;
+}
