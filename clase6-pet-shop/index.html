@@ -3,70 +3,119 @@
     <head>
         <meta charset="utf-8">
         <title>PetShop</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header>
-            <div style="background-color: black">
-                <span style="color: #ffffff">Grandes ofertas en comederos</span>
-                <span style= "color: rgb(250, 250, 250)">Español</span>
-                <span style="color: rgb(255, 255, 255)">ARG$</span>
+            <div class="toptop">
+                <span id="menu-ofertas">Grandes ofertas en comederos</span>
+                <form action="" method="POST">
+                    <select name="idioma" id="idioma">
+                        <option value="español">Español</option>
+                    </select>
+                    <select name="moneda" id="moneda">
+                        <option value="ARG">ARG$</option>
+                    </select>
+                </form>
             </div>
-            <div style= "background-color: #F0A83E">
+
+            <div class="top">
                 <img src= "img/Logo.png">
-                <nav>
+                <span>
                     <a href="">Categorías</a>
                     <a href="">Pets</a>
                     <a href="">Nosotros</a>
                     <a href="">Contactanos</a>
-                </nav>
+                </span>
             </div>
         </header>
         <main>
+
             <section>
-                <div align="center">
-                    <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="ofertas">
-                     <span>¡Es un placer tenerte aquí!</span>
-                     <span>¡Comederos en descuento!</span>
-                      <span>COMEDEROS</span>
+                <div class="ofertas">
+                     <span id= "boton1">¡Es un placer tenerte aquí!</span>
+                     <span id="boton2">¡Comederos en descuento!</span>
+                     <span id="boton3">COMEDEROS</span>
             </div>
             </section>
-            <section>
-                <div align="center">
-                    <img src="img/pawprint 1.png" >
+
+            <section class="produc-destacados">
+                <div id="patita">
+                    <img src="img/pawprint 1.png">
                 </div>
-                <h1 align="center" style="color:#3C2313">Productos destacados</h1>
-                <div align="center">
-                    <span>Comederos</span>
-                    <span>Accesorios</span>
-                    <span>Comida</span>
+                <h1 id="tit1">Productos Destacados</h1>
+                <div id="opciones">
+                    <a href="">Comederos</a>
+                    <a href="">Accesorios</a>
+                    <a href="">Comida</a>
                 </div>
-                <article>
+            </section>
+
+            <section class="productos">
+                <article class="producto1">
                     <img src="img/Churrasquito.png">
-                </article>   
-                <article>
-                    <img src="img/Comedero.png">
+                    <p class="nombre-produc">Juguete Churrasquito</p>
+                    <p class="precio-produc">$150</p>
                 </article>
-                <article>
-                    <img src="img/Huesito juguete.png">
+
+                <article class="producto2">
+                    <img src="img/Comedero.png">
+                    <p class="nombre-produc">Comedero para perro</p>
+                    <p class="precio-produc">$250</p>
+                </article>
+
+                <article class="producto3">
+                    <img src="img/Huesito.png" id="huesito">
+                    <p class="nombre-produc">Juguete Huesito</p>
+                    <p class="precio-produc">$650</p>
                 </article>
             </section>
-            <section>
-                <img src="img/Formulario.png"> 
+                
+            <section class="contacto">
+                <h2>Contáctanos</h2>
+                <form action="" method="POST">
+                    <input type="text" name="nomb-y-apell" placeholder="Nombre y Apellido">
+                    <input type="email" name="correo" placeholder="Ingresá tu correo elctrónico">
+                    <input type="tel" name="telefo" placeholder="Teléfono">
+                    <button type="reset" name="resetear" id="boton-reseteo">Resetear</button>
+                    <button type="submit" name="enviar" id="boton-envio">Enviar</button>
+                </form>
             </section>
         </main>
         <footer>
-            <div style="background-color: #F0A83E">
-                <span style="color: #FFFFFF">Suscríbete para más novedades</span>
-                <span style="color:darkgreen">Ingresa tu correo electrónico</span>
-                <span>Suscribirme</span>
+            <div class="suscripcion">
+            <div>
+                <img src="img/mail.png" alt="">
+                <span>Suscríbete para más novedades</span>
             </div>
-            <div style="background-color: #3C2313">
-                <p style="color: #FFFFFF">Localidad</p>
-                <p style="color: #FFFFFF">Teléfono <img src="img/Logo1.png"></p>
-                <p style="color: #FFFFFF">Correo Electrónico</p>
+                <form action="" method="POST">
+                    <input type="email" name="email" placeholder="Ingresa tu correo electrónico" id="email">
+                    <button type="submit" name="suscripcion" id="boton">Suscribirme</button>
+                </form>
             </div>
-            <div style="background-color: #222222" align="center">
-                <p style="color: #FFFFFF">Todos los derechos reservados Front End</p>
+
+            <div class="datos">
+                <div class="localidad">
+                    <img src="img/localidad.png" alt="">
+                    <span>Localidad<p>Calle - provincia</p></span>  
+                </div>
+                <div class="telefono">
+                    <img src="img/telefono.png" alt="">
+                    <span>Teléfono<p>Número de teléfono</p></span>  
+                </div>
+                <div class="correo">
+                    <img src="img/email.png">
+                    <span>Correo Electrónico<p>Dirección de correo</p></span>
+                </div>   
+                <img src="img/Logo1.png" id="logo2">
+            </div>
+
+            <div id="derechos">
+                <p>Todos los derechos reservados Front End</p>
             </div>
         </footer>
     </body>
