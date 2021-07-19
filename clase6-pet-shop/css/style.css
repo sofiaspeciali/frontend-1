@@ -5,8 +5,8 @@
 }
 .toptop {
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    line-height: 11.72px;
+    font-size: 0.63rem;
+    line-height: 0.732rem;
     font-style: normal;
     font-weight: 400;
     color: #F3F3F3;
@@ -17,50 +17,53 @@
     align-items: center;
 }
 #menu-ofertas{
-    margin-left: 90px;
+    margin-left: 5.6rem;
 }
-form{
-    margin-right: 60px;
+#form-menu{
+    margin-right: 3.75rem;
 }
 #moneda, #idioma{
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    line-height: 11.72px;
+    font-size: 0.63rem;
+    line-height: 0.73rem;
     font-style: normal;
     font-weight: 400;
     color: #F3F3F3;
     background-color:#222222;
     border: none;
-    margin-right: 12px;
+    margin-right: 0.75rem;
 }
 .top{
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-style:normal;
-    font-size: 13px;
+    font-size: 0.81rem;
     background-color: #F0A83E;
-    height: 62px;
+    height: 3.87rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 .top nav{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .top nav a{
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .top nav a:active{
     color: #08571d;
 }
 .top img{
-    margin-left: 40px;
+    margin-left: 2.5rem;
+}
+#menu-mobile{
+    display: none;
 }
 .banner {
-    height: 409px;
+    height: 25.56rem;
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     background-size: cover;
     position: relative;
@@ -72,291 +75,382 @@ form{
     text-align: center;
 }
 #boton1{
-    font-size: 30px;
+    font-size: 1.875rem;
     background-color: #F3F3F3;
-    padding: 10px;
-    width: 365px;
-    height: 54px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    width: 22.8rem;
+    height: 3.375rem;
+    border-radius: 0.31rem;
     position: absolute;
-    right: 12px;
-    top: 164px;
+    right: 0.75rem;
+    top: 10.25rem;
 }
 #boton2{
     color: #3C2313;
-    font-size: 16px;
-    width: 300px;
-    height: 19px;
+    font-size: 1rem;
+    width: 18.75rem;
+    height: 1.18rem;
     position: absolute;
-    right: 40px;
-    top: 222px;
-    margin-top: 12px;
+    right: 2.5rem;
+    top: 13.87rem;
+    margin-top: 0.75rem;
 }
 #boton2::before{
     content: "¡Tenemos ";
     color: #3C2313;
-    font-size: 16px;
+    font-size: 1rem;
 }
 #boton3{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #F0A83E;
-    border-radius: 5px;
-    width: 141px;
-    height: 49px;
-    padding: 15px 23px;
+    border-radius: 0.312rem;
+    width: 8.81rem;
+    height: 3.06rem;
+    padding: 1rem 1.43rem;
     position: absolute;
-    right: 117px;
-    top: 253px;
-    margin-top: 12px
+    right: 7.31rem;
+    top: 15.8rem;
+    margin-top: 0.75rem;
 }
 .produc-destacados{
-    position: relative;
-}
-#patita{
-    position: absolute;
-    top:20px;
-    margin-left: 650px;
+    width: 35.37rem;
+    height: 7.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.8rem;
+    margin-top: 2.3rem;
+    margin-left: 25rem;
 }
 #tit1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 40px;    
-    color: #3C2313;
-    width: 406px;
-    height: 47px;
-    position: absolute;
-    top: 96px;
-    left: 480px;
+    font-size: 2.5rem;    
+    color: #3C2313; 
 }
- #opciones{
-    
-    position: absolute;
-    left: 540px;
-    top: 163px;  
+#opciones{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
 }
 #opciones a{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;    
+    font-size: 1rem;    
     color: #666666;
-    margin-right: 30px;
     text-decoration: none;
 }
 #opciones a:hover{
-    font-size: 18px;  
+    font-size: 1.1rem;  
     color: #272927;
-}
-.produc-destacados .productos{
-    position: absolute;
-    top: 230px;
-    bottom: 121px;
-    left: 95px;
-    right: 95px;
 }
 .productos{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 3.12rem;
+    gap: 1.25rem;
 }
 .producto1, .producto2, .producto3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 265px;
-    height: 312px;
+    width: 16.5rem;
+    height: 19.5rem;
     background-color: #FBFAF6;
-    margin-left: 20px;
 }
 .nombre-produc{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
     color: #3C2313;
-    width: 160px;
-    height: 20px;
+    width: 10rem;
+    height: 1.25rem;
     text-align: center;
 }
 .precio-produc{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
     color: #F0A83E;
-    width: 39px;
-    height: 20px;
+    width: 2.43rem;
+    height: 1.25rem;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 0.06rem;
 }
 .precio-produc:hover{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 340px;
-    margin-top: 85px;
-    margin-left: 540px;
+    width: 21.25rem;
+    margin-top: 5.312rem;
+    margin-left: 31.4rem;
 }
 .contacto h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 25px;    
+    font-size: 1.56rem;    
     color: #3C2313;
-    width: 143px;
-    height: 29px;
+    width: 8.93rem;
+    height: 1.812rem;
     text-align: center;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .contacto form input{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 9px;    
+    font-size: 0.56rem;    
     color: white; 
     background-color: #3C2313;
-    border-radius: 15px;
-    width: 340px;
-    padding: 15px;
-    margin-top: 10px;
+    border-radius: 1rem;
+    width: 21.25rem;
+    padding: 1rem;
+    margin-top: 0.625rem;
     border: none;
 }
 .contacto form input:focus{
-    font-size: 12px;
+    font-size: 0.75rem;
     color:#78d4f0; 
 }
 #boton-reseteo{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;    
+    font-size: 1rem;    
     color: #FFFFFF; 
-    padding: 8px;
+    padding: 0.5rem;
     text-align: center;
     background-color: #8A8787;
-    width: 110px;
-    border-radius: 15px;
+    width: 6.875rem;
+    border-radius: 1rem;
     border: none;
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-right: 6px;
+    margin-top: 3.12rem;
+    margin-left: 3.75rem;
+    margin-right: 0.375rem;
 }
 #boton-reseteo:hover{
     color: #78d4f0;
-    font-size: 18px;
+    font-size: 1.12rem;
 
 }
 #boton-envio{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;    
+    font-size: 1rem;    
     color: #FFFFFF; 
-    padding: 8px;
+    padding: 0.5rem;
     text-align: center;
     background-color:#F0A83E;
-    width: 110px;
-    border-radius: 15px;
+    width: 6.875rem;
+    border-radius: 1rem;
     border: none;
 }
 #boton-envio:hover{
     color: #78d4f0;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 .suscripcion{
     display: flex;
     background-color: #F0A83E;
-    height: 60px;
+    height: 3.75rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 4.68rem;
 }
 .suscripcion img{
-    width: 40px;
-    height: 20px;
-    margin-left: 25px;
+    width: 2.5rem;
+    height: 1.25rem;
+    margin-left: 1.56rem;
 }
 .suscripcion span{
-    width: 288px;
-    height: 23px;
+    width: 18rem;
+    height: 1.43rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
-    margin-left: 10px;
+    margin-left: 0.625rem
 }
 #email{
-    width: 271px;
-    height: 40px;
+    width: 16.9rem;
+    height: 2.5rem;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 1rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 9px;
+    font-size: 0.562rem;
     color: #A0A0A0;
     border: none;
-    padding: 8px;
+    padding: 0.5rem;
 }
 #email:focus{
-    font-size: 12px;
+    font-size: 0.75rem;
     color:#78d4f0; 
 }
 #boton{
-    width: 70px;
-    height: 34px;
+    width: 4.375rem;
+    height: 2.12rem;
     background-color: #3C2313;
-    border-radius: 15px;
+    border-radius: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 9px;
+    font-size: 0.56rem;
     color: white;
-    padding: 10px;
+    padding: 0.625rem;
     border: none;
 }
 .datos{
     display: flex;
     flex-direction: column;
-    height: 284px;
+    height: 17.75rem;
     background-color: #3C2313;
 }
 .localidad, .telefono, .correo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 70px;
+    width: 18.75rem;
+    margin-top: 1.25rem;
+    margin-left: 4.375rem;
 }
 .datos span{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 .datos span p{
-    font-size: 10px;
+    font-size: 0.625rem;
     color: #8A8787;
 }
 #logo2{
-    width: 166px;
-    height: 23px;
+    width: 10.37rem;
+    height: 1.43rem;
     position: absolute;
-    top: 1650px;
-    right: 70px;
+    top: 103.12rem;
+    right: 4.375rem;
 }
 #derechos{
     background-color: #222222;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 0.625rem;
     color: white;
     text-align: center;
 }
+@media screen and (max-width:480px) and (orientation:portrait){
+    .toptop{ 
+        display: none;
+    }
+    .top nav a{ 
+        display: none;
+    }
+    #menu-mobile {
+         display: inline; 
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-right: 2.5rem;
+    }
+    #boton1 {
+        position: absolute;
+        right: 3rem;
+        font-size: 1.6rem;
+    }
+    .produc-destacados{ 
+        margin-left: 2rem;
+        width: 26rem;
+        height: 12.5rem;
+    }
+    #tit1{
+        text-align: center;
+        width: 13rem;
+    }
+    .productos{
+        gap: 1.5rem;
+    }
+    .producto1, .producto2, .producto3{
+        margin-left: 0%;
+    }
+    .contacto{
+        width: 26rem;
+        margin-left: 1.7rem;
+    }
+    .contacto h2{
+        font-size: 2.5rem;
+        width: 14.25rem;
+        margin-bottom: 1rem;
+    }
+    .contacto form input{
+        width: 18.7rem;
+        margin-left: 3rem;
+    } 
+    .botones-formularios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 2.8rem;
+        margin-top: 3rem;
+        margin-right: 1rem;
+    }
+    #boton-reseteo, #boton-envio{
+        width: 12.5rem;
+        height: 2.8rem;
+        margin-left: 0%;
+        margin-top: 0%;
+    } 
+    .suscripcion{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 6.25rem;
+        margin-top: 3rem;
+    }
+    .suscripcion form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.1rem;
+    }
+    #boton{
+        width: 6.25rem;
+        font-size: 1rem;
+    }
+    #logo2{
+        position: absolute;
+        top: 142.7rem;
+        right: 10rem;
+    }
+    .datos{
+        height: 20rem;
+    }
+    .localidad{
+        margin-top: 2.8rem;
+        margin-left: 5.5rem;
+    }
+    .telefono{
+        margin-left: 5.5rem;
+    }
+    .correo{
+        margin-left: 5.5rem;
+    }
+    #derechos{
+        font-size: 0.9rem;
+    }
+} 

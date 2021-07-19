@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>PetShop</title>
         <link href="css/style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
         <header>
             <div class="toptop">
                 <span id="menu-ofertas">Grandes ofertas en comederos</span>
-                <form action="" method="POST">
+                <form action="" method="POST" id="form-menu">
                     <select name="idioma" id="idioma">
                         <option value="español">Español</option>
                     </select>
@@ -31,6 +32,7 @@
                     <a href="">Nosotros</a>
                     <a href="">Contactanos</a>
                 </nav>
+                <img src="img/menu-icon 1.png" alt="" id="menu-mobile"> 
             </div>
         </header>
         <main>
@@ -81,17 +83,19 @@
                     <input type="text" name="nomb-y-apell" placeholder="Nombre y Apellido">
                     <input type="email" name="correo" placeholder="Ingresá tu correo elctrónico">
                     <input type="tel" name="telefo" placeholder="Teléfono">
-                    <button type="reset" name="resetear" id="boton-reseteo">Resetear</button>
-                    <button type="submit" name="enviar" id="boton-envio">Enviar</button>
+                    <div class="botones-formularios">
+                        <button type="reset" name="resetear" id="boton-reseteo">Resetear</button>
+                        <button type="submit" name="enviar" id="boton-envio">Enviar</button>
+                    </div>
                 </form>
             </section>
         </main>
         <footer>
             <div class="suscripcion">
-            <div>
-                <img src="img/mail.png" alt="">
-                <span>Suscríbete para más novedades</span>
-            </div>
+                <div>
+                    <img src="img/mail.png" alt="">
+                    <span>Suscríbete para más novedades</span>
+                </div>
                 <form action="" method="POST">
                     <input type="email" name="email" placeholder="Ingresa tu correo electrónico" id="email">
                     <button type="submit" name="suscripcion" id="boton">Suscribirme</button>
